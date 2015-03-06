@@ -2,14 +2,15 @@ EmailClient.EmailsRoute = Ember.Route.extend({
   beforeModel: function() {
     this.store.push('email', {
       id: 1,
-      sender: "Comcast",
+      sender: "platinumcustomerservice@comcast.com",
       subject: "Your Bill Is $100,000",
       body: "Dear valued customer, we at Comcast are pleased to inform you that you have a humble balance of $100,000. If you have
       and questions regarding this bill, please call us at 1-800-MNO-POLY"
     });
+
     this.store.push('email', {
       id: 2,
-      sender: "Trimet",
+      sender: "trent@trimet.com",
       subject: "Introducing New Real Time Tracker",
       body: "Dear valued customer, we at Trimet are pleased to inform you that we are currently in the works developing a real 
       game changing transit tracking application. Here's how it will work, you type in your current location as well as your 
