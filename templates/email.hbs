@@ -1,0 +1,28 @@
+<div class="row">
+  <section class="col-md-6">
+      <h2>{{sender}}</h2>
+      <p>{{subject}}</p>
+
+      {{outlet}}
+      {{#link-to 'new-message' classNames="btn btn-primary"}}Add a new message{{/link-to}}
+    </section>
+
+  <section class="col-md-6">
+    <h2>Lots</h2>
+
+    {{#each message in messages}}
+    <article>
+      <h3>{{message.subject}}</h3>
+      <p>{{message.body}}</p>
+
+    </article>
+    {{/each}}
+
+  </section>
+</div>
+
+<div class="row">
+  <section class="col-md-6">
+
+  </section>
+</div>

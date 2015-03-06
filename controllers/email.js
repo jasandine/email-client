@@ -1,3 +1,3 @@
-Olsport.EmailController = Ember.ObjectController.extend({
+EmailClient.EmailController = Ember.ObjectController.extend({
 
 });

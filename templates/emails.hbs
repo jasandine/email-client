@@ -1,0 +1,7 @@
+{{#each email in model}}
+<section>
+    <h2>{{#link-to 'email' email}}{{email.sender}}{{/link-to}}</h2>
+    <p>{{email.subject}}</p>
+    <p>{{email.body}}</p>
+</section>
+{{/each}}
