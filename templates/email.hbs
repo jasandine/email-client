@@ -2,13 +2,14 @@
   <section class="col-md-6">
       <h2>{{sender}}</h2>
       <p>{{subject}}</p>
+      <p>{{body}}</p>
 
       {{outlet}}
-      {{#link-to 'new-message' classNames="btn btn-primary"}}Add a new message{{/link-to}}
+      {{#link-to 'new-message' classNames="btn btn-primary"}}Reply to this email{{/link-to}}
     </section>
 
   <section class="col-md-6">
-    <h2>Lots</h2>
+    <h2>Replies</h2>
 
     {{#each message in messages}}
     <article>
