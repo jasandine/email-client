@@ -1,4 +1,4 @@
-Trianglz
+EmailZ
 ============
 Product Description
 -------------------
